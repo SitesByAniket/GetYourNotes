@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Fredoka:wght@500&family=League+Spartan:wght@500&family=Oswald:wght@500&family=Poppins&family=Praise&family=Roboto+Condensed:ital,wght@0,400;1,300&family=Roboto:wght@700&family=Smooch+Sans:wght@600&family=Spline+Sans:wght@500&family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;600&family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;600&family=Oswald&family=Playfair+Display:ital,wght@1,500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;600&family=Oswald&family=Roboto:wght@500&display=swap');
 #t2{
     text-align: center;
     font-family: 'Fredoka', sans-serif;
@@ -140,7 +143,8 @@ border-radius: 15px;
 #tn{
   text-align: center;
   font-family: 'Fredoka', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
+  margin-top: 10px;
   
 }
 #syl{
@@ -152,4 +156,28 @@ border-radius: 15px;
 #subt{
   font-family: 'Fredoka',sans-serif;
   font-size: 30px;
+}
+.animate{
+   animation: Slide_Up 1.4s ease;
+}
+@keyframes Slide_Up{
+  0%{
+    transform: translateY(60px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.sylabus{
+   margin: 12px;
+   font-family: 'Playfair Display', serif;
+   font-size: 25px;
+
+}
+.sylabus1{
+  color: blueviolet;
+  margin: 12px;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  
 }
