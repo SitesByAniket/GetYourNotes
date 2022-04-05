@@ -196,6 +196,7 @@ border-radius: 15px;
 }
 #inh1{
   font-family: 'Playfair Display', serif;
+  text-align: center;
 }
 /* #home{
     background-image: url('bg.jpg');
@@ -203,3 +204,18 @@ border-radius: 15px;
     background-attachment: fixed;
     background-size: 100% 80%;
 } */
+#doh1{
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 24;
+}
+#center1{
+   width: 12rem;
+   height: 12rem;
+
+
+}
+.fondon{
+  font-size: 144px;
+}
