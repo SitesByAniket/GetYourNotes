@@ -219,3 +219,28 @@ border-radius: 15px;
 .fondon{
   font-size: 144px;
 }
+#stats{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+
+ 
+  
+}
+.statcenter{
+  text-align: center;
+ 
+}
+#border{
+  border: 4px solid blueviolet;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 10%;
+}
+#syh2{
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 32px;
+  
+}
