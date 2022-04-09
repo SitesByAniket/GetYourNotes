@@ -5,33 +5,58 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <link rel="stylesheet" href="style.css">
     <!-- <link rel="stylesheet" media="screen and (max-width: 1170px)" href="p ne.css"> -->
   <title>Notes</title>
 </head>
 <body>
-  <nav id="nav">
-    <header class="text-gray-600 body-font">
-      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-  
-           <img src="RIL.png" alt="" id="logo">
-          
-          <span class="ml-3 text-xl " id="t1">
-            GetYourNotes</span>
-        </a>
-        <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center" id="list">
-          <a href="index.html" class="mr-5  ver:text-gray-900 cursor-pointer "> Home</a>
-          <a href="notes.html"class="mr-5  ver:text-gray-900 cursor-pointer ">Notes</a>
-          <!-- <a href="projects.html" class="mr-5  ver:text-gray-900 cursor-pointer ">Projects</a> -->
-          <a href="syllabus.html" class="mr-5  ver:text-gray-900 cursor-pointer ">Syllabus</a>
-          <a href="contact.html" class="mr-5  ver:text-gray-900 cursor-pointer ">Contact</a>
-          <a href="donations.html"class="mr-5 hover:text-gray-900 cursor-pointer ">Donations</a>
-        </nav>
-       
-      </div>
-    </header>
+  <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between" id="nav">
+    <div class="flex justify-between items-center ">
+      <a class="ml-3 text-xl " id="t2" href="index.html">
+        <span class="ml-13 text-xl pl-10" id="t1">
+        GetYourNotes</span></a>
+
+      <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+        <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+      </span>
+    </div>
+
+    <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 " id="nav1">
+      <li class="mx-4 my-6 md:my-0 listwhite "  >
+        <a href="index.html" class="">Home</a>
+
+      </li>
+      <li class="mx-4 my-6 md:my-0  listwhite" >
+        <a href="notes.html" class="">Notes</a>
+        
+      </li>
+      <li class="mx-4 my-6 md:my-0 listwhite" >
+        <a href="syllabus.html" class="">Syllabus</a>
+        
+      </li>
+      <li class="mx-4 my-6 md:my-0 listwhite" >
+        <a href="contact.html" class="">Contact</a>
+        
+      </li>
+      <li class="mx-4 my-6 md:my-0 btn" >
+        <a href="donations.html" class="">Donations</a>
+               
+      </li>
+
+      
+<h2 class=""></h2>
+    </ul>
   </nav>
+
+
+  <script>
+    function Menu(e){
+      let list = document.querySelector('ul');
+      e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+    }
+    
+  </script>
 
 
 

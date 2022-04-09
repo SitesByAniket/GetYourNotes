@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;600&family=Oswald&family=Playfair+Display:ital,wght@1,500&family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;600&family=Oswald&family=Playfair+Display:ital,wght@1,500&family=Roboto:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;600&family=Oswald&family=Playfair+Display:ital,wght@1,500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;600&family=Oswald&family=Roboto:wght@500&display=swap');
 #t2{
     text-align: center;
@@ -13,13 +14,17 @@
 }
 #nav{
     
-    background-color: blueviolet;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
 }
 #t1{
-    color: whitesmoke;
+    color: blueviolet;
 }
 #list{
-    color: whitesmoke;
+    color: blueviolet;
 }
 .sub{
     font-family: 'Fredoka', sans-serif;
@@ -95,16 +100,17 @@
   padding: 3px;
 }
 .btn{
-    border: 4px solid blueviolet;
-    border-radius: 244px;
-    padding: 4px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 12px;
+    padding: 6px;
+    width: min-content;
 }
 .btn:hover{
-    border: 2px solid blueviolet;
-    border-radius: 244px;
-    padding: 4px;
-    color: aliceblue;
-    background-color: blueviolet;
+  color: blueviolet;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  padding: 6px;
 
 }
 .btn2{
@@ -146,7 +152,7 @@ border-radius: 15px;
   text-align: center;
   font-family: 'Fredoka', sans-serif;
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: 6rem;
   
 }
 #syl{
@@ -158,6 +164,7 @@ border-radius: 15px;
 #subt{
   font-family: 'Playfair Display', serif;
   font-size: 30px;
+  margin-top: 6rem;
 }
 .animate{
    animation: Slide_Up 1.4s ease;
@@ -187,7 +194,7 @@ border-radius: 15px;
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
   text-align: center;
-  /* margin-top: 7%; */
+  margin-top: 4rem;
 }
 #syp{
   
@@ -197,6 +204,8 @@ border-radius: 15px;
 #inh1{
   font-family: 'Playfair Display', serif;
   text-align: center;
+  margin-top: 6rem;
+  
 }
 /* #home{
     background-image: url('bg.jpg');
@@ -219,28 +228,28 @@ border-radius: 15px;
 .fondon{
   font-size: 144px;
 }
-#stats{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     
+.listwhite{
+  color: black;
+  font-size: 1.01rem;
 
- 
+}
+#navbtn{
+  color: white;
+}
+.listwhite:hover{
+  color: blueviolet;
   
+  }
+  #nav1{
+    
+    background-color: white;
+    margin-right: 10%;
+    /* font-family: 'Fredoka', sans-serif;
+    font-family: 'Roboto', sans-serif; */
 }
-.statcenter{
-  text-align: center;
- 
-}
-#border{
+#borderstat{
   border: 4px solid blueviolet;
   padding: 20px;
   border-radius: 12px;
   margin: 10%;
-}
-#syh2{
-  text-align: center;
-  font-family: 'Fredoka', sans-serif;
-  font-size: 32px;
-  
 }
