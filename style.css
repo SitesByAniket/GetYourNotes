@@ -42,67 +42,6 @@
     margin-right: 30%;
     
 }
-#sub1{
-
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
-  font-size: 23px;
-  padding: 3px;
-  
-}
-#sub2{
-    
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
-  font-size: 23px;
-  padding: 3px;
-}
-#sub3{
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
-    margin-bottom: 12px;
-  font-size: 23px;
-  padding: 3px;
-}
-#sub4{
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
-    margin-bottom: 12px;
-  font-size: 23px;
-  padding: 3px;
-}
-#sub5{
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
-    margin-bottom: 12px;
-  font-size: 23px;
-  padding: 3px;
-}
-#sub6{
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
-    margin-bottom: 12px;
-  font-size: 23px;
-  padding: 3px;
-}
-#sub7{
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
-    margin-bottom: 12px;
-  font-size: 23px;
-  padding: 3px;
-}
-#sub8{
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
-    margin-bottom: 12px;
-  font-size: 23px;
-  padding: 3px;
-}
-#sub9{
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
-    margin-bottom: 12px;
-  font-size: 23px;
-  padding: 3px;
-}
-#sub10{
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
-    margin-bottom: 12px;
-  font-size: 23px;
-  padding: 3px;
-}
 .btn{
     color: white;
     background-color: blueviolet;
@@ -137,17 +76,17 @@ border-radius: 15px;
     font-size: large;
     color: blue;
 }
-.border2{
+/* .border2{
   border: 4px solid blueviolet;
   border-radius: 24px;
-}
+} */
 .ho:hover{
   color: aliceblue;
 }
-.border2:hover{
+/* .border2:hover{
   border: 4px solid blueviolet;
   
-}
+} */
 .font2{
   font-family: 'IBM Plex Sans Arabic', sans-serif;
   font-size: 1.2rem;
@@ -204,6 +143,7 @@ border-radius: 15px;
   
   font-size: 1.1rem;
   text-align: center;
+  
 }
 #inh1{
   font-family: 'Playfair Display', serif;
@@ -256,4 +196,33 @@ border-radius: 15px;
   padding: 20px;
   border-radius: 12px;
   margin: 10%;
+}
+#conh1{
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 8rem;
+}
+#conp{
+  margin-top: 20px;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;  
+}
+#options{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#notice{
+  color: blueviolet;
+  font-size: large;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#noticediv{
+  border: 2px solid blueviolet;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 7rem;
 }
