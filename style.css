@@ -16,7 +16,7 @@
 }
 #nav{
     
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     position: fixed;
     top: 0;
     width: 100%;
@@ -186,7 +186,7 @@ border-radius: 15px;
   }
   #nav1{
     
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin-right: 10%;
     /* font-family: 'Fredoka', sans-serif;
     font-family: 'Roboto', sans-serif; */
@@ -225,4 +225,16 @@ border-radius: 15px;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 7rem;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background: blueviolet;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: black;
 }
