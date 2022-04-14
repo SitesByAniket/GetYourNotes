@@ -260,7 +260,5 @@ border-radius: 15px;
 
 }
 #ad{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
 }
