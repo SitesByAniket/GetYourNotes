@@ -259,3 +259,8 @@ border-radius: 15px;
   opacity: 100%; */
 
 }
+#ad{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
