@@ -111,9 +111,9 @@ border-radius: 15px;
   margin-top: 6rem;
 }
 .animate{
-   animation: Slide_Up 1.4s ease;
+   animation: Slide_Down 1.4s ease;
 }
-@keyframes Slide_Up{
+@keyframes Slide_Down{
   0%{
     transform: translateY(60px);
   }
