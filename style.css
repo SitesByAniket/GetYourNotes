@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;600&family=Oswald&family=Playfair+Display:ital,wght@1,500&family=Roboto:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;600&family=Oswald&family=Playfair+Display:ital,wght@1,500&family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Nunito+Sans:wght@600&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;600&family=Oswald&family=Roboto:wght@500&display=swap');
 #t2{
     text-align: center;
@@ -167,6 +168,7 @@ border-radius: 15px;
 .listwhite{
   color: black;
   font-size: 1.01rem;
+  font-family: 'Nunito Sans', sans-serif;
 
 }
 #navbtn{
