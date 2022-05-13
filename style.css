@@ -106,7 +106,6 @@ border-radius: 15px;
 #subt{
   /* font-family: 'Playfair Display', serif; */
   font-size: 30px;
-  margin-top: 6rem;
 }
 .animate{
    animation: Slide_Down 1.4s ease;
@@ -136,7 +135,7 @@ border-radius: 15px;
 
   font-size: 2rem;
   text-align: center;
-  margin-top: 4rem;
+
 }
 #syp{
   
