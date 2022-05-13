@@ -283,3 +283,8 @@ margin: auto;
   z-index: -1;
   opacity:0.89;
 } */
+#adsterra-ad{
+  margin: auto;
+  width: 60%;
+  background-color: red;
+}
