@@ -291,7 +291,8 @@ margin: auto;
   opacity:0.89;
 } */
 #a-ads1{
-  margin-top: 5rem;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 #home{
    margin-top: 6rem;
@@ -317,4 +318,8 @@ margin: auto;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
+}
+#section{
+  margin-top: 6.0vw;
+  margin-bottom: 4vw;
 }
