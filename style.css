@@ -30,6 +30,8 @@
 #t1{
     color: blueviolet;
     text-align: left;
+    margin-left: 0%;
+    font-size: 1.3rem;
 
     
 }
@@ -333,7 +335,7 @@ margin: auto;
   margin-bottom: 5%;
 }
 #section{
-  margin-top: 6rem;
+  margin-top: 5rem;
   margin-bottom: 4rem;
   
 }
