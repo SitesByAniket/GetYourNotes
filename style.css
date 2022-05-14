@@ -29,6 +29,7 @@
 }
 #t1{
     color: blueviolet;
+    text-align: left;
 
     
 }
@@ -299,6 +300,7 @@ margin: auto;
 }
 #home{
    margin-top: 5rem;
+ 
    
 }
 .margin{
@@ -342,3 +344,9 @@ body{
 .white{
   background-color: white;
 }
+#hoh1{
+  color: blueviolet;
+ 
+  
+}
+
