@@ -6,7 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;600&family=Oswald&family=Playfair+Display:ital,wght@1,500&family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Nunito+Sans:wght@600&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Noto+Sans:wght@700&family=Nunito+Sans:wght@600&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;600&family=Oswald&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Noto+Sans:wght@700&family=Nunito+Sans:wght@600&family=Roboto:wght@300&display=swap');
+
 #t2{
     text-align: center;
     font-family: 'Fredoka', sans-serif;
@@ -305,12 +308,17 @@ margin: auto;
     font-size: 1.8rem;
     text-transform: capitalize;
     line-height: 1.4;
+    color: blueviolet;
+    
+    
   
 }
 .margin1{
   margin-left: 5px;
   margin-right: 5px;
   text-align: left;
+  font-family: 'Montserrat', sans-serif;
+
 
   
 }
@@ -327,4 +335,10 @@ margin: auto;
   margin-bottom: 4rem;
   
 }
+body{
+  background-color: #f1f8fc;
 
+}
+.white{
+  background-color: white;
+}
