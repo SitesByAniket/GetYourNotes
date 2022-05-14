@@ -294,7 +294,7 @@ margin: auto;
   margin-top: 5rem;
 }
 #home{
-   margin-top: 4rem;
+   margin-top: 6rem;
    /* background-color: rgb(216, 228, 250); */
 }
 .margin{
@@ -312,4 +312,9 @@ margin: auto;
   text-align: left;
 
   
+}
+#homeimg{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
