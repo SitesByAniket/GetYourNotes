@@ -297,7 +297,8 @@ margin: auto;
   opacity:0.89;
 } */
 .a-ads1{
-   margin-top: 5rem;
+   margin-top: 5px;
+   margin-bottom: ;
 }
 #home{
    margin-top: 5rem;
@@ -339,7 +340,7 @@ margin: auto;
   
 }
 body{
-  background-color: #f1f8fc;
+  
 
 }
 .white{
@@ -350,4 +351,7 @@ body{
  
   
 }
+#indexbody{
 
+  background-color: #f1f8fc;
+}
