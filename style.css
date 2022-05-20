@@ -112,7 +112,7 @@ border-radius: 15px;
 #subt{
   /* font-family: 'Playfair Display', serif; */
   font-size: 30px;
-  margin-top: 5rem;
+  margin-top: 9rem;
 }
 .animate{
    animation: Slide_Down 1.4s ease;
@@ -298,7 +298,7 @@ margin: auto;
 } */
 .a-ads1{
    margin-top: 5px;
-   margin-bottom: ;
+   margin-bottom: 5px;
 }
 #home{
    margin-top: 5rem;
@@ -352,6 +352,8 @@ body{
   
 }
 #indexbody{
-
   background-color: #f1f8fc;
+}
+#notesec{
+  margin-top: 0%;
 }
